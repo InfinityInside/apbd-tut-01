@@ -15,4 +15,9 @@ public class StatisticsHelper
             return 0;
         return vals.Sum();
     }
+
+    static double CalculateMax(int[] vals)
+    {
+        return vals.Max();
+    }
 }
