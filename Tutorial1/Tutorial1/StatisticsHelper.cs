@@ -8,4 +8,9 @@ public class StatisticsHelper
             return 0;
         return vals.Average();
     }
+
+    static double CalculateSum(int[] vals)
+    {
+        return vals.Sum();
+    }
 }
