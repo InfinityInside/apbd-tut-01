@@ -22,4 +22,11 @@ public class StatisticsHelper
             return 0;
         return vals.Max();
     }
+
+    static double CalculateMin(int[] vals)
+    {
+        if (vals.Length == 0)
+            return 0;
+        return vals.Min();
+    }
 }
