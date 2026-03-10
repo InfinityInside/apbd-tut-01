@@ -22,4 +22,9 @@ public class StatisticsHelper
             return 0;
         return vals.Max();
     }
+
+    static double CalculateMin(int[] vals)
+    {
+        return vals.Min();
+    }
 }
