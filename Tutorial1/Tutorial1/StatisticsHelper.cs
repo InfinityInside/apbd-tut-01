@@ -29,4 +29,9 @@ public class StatisticsHelper
             return 0;
         return vals.Min();
     }
+
+    static double CalculateCount(int[] vals)
+    {
+        return vals.Length;
+    }
 }
