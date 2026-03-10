@@ -30,7 +30,7 @@ public class StatisticsHelper
         return vals.Min();
     }
 
-    static double CalculateCount(int[] vals)
+    static int CalculateCount(int[] vals)
     {
         return vals.Length;
     }
