@@ -32,6 +32,8 @@ public class StatisticsHelper
 
     static int CalculateCount(int[] vals)
     {
+        if (vals.Length == 0)
+            return 0;
         return vals.Length;
     }
 }
