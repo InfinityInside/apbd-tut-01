@@ -18,6 +18,8 @@ public class StatisticsHelper
 
     static double CalculateMax(int[] vals)
     {
+        if (vals.Length == 0)
+            return 0;
         return vals.Max();
     }
 }
